@@ -20,3 +20,5 @@
 
 ## Control 
 - The AXI-LITE port in the DMA can be used for control
+- The AXI Interconnect block connects the PS M_AXI_GP0 channel to the AXI-Lite that controls the DMA block
+- AXI SmartConnect blocks are used to connect the PS's AXI-Slave I/O to the DMA's AXI-Master I/O. 
